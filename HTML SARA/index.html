@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ristorante Terra</title>
+  <link rel="stylesheet" href="../bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="container py-4 d-flex justify-content-between align-items-center">
+    <a class="brand" href="#home">terra.</a>
+    <nav class="d-flex gap-3" aria-label="Menu principale"><a href="#menu">Menu</a><a href="#contatti">Contatti</a></nav>
+  </header>
+  <main id="home">
+    <section class="container py-5">
+      <div class="row align-items-center g-4">
+        <div class="col-md-7">
+          <p class="eyebrow">CUCINA SARDA · INGREDIENTI DI STAGIONE</p>
+          <h1>Le cose buone<br>partono dalla terra.</h1>
+          <p class="lead mt-4">Ricette di casa, prodotti locali e il piacere di stare insieme.</p>
+          <a class="btn btn-terra mt-3" href="#menu">Scopri il menu</a>
+        </div>
+        <div class="col-md-5"><div class="plate" aria-hidden="true"><div class="food">✦</div></div></div>
+      </div>
+    </section>
+    <section id="menu" class="container pb-5">
+      <div class="d-flex justify-content-between align-items-center mb-4"><h2>Il nostro menu</h2><span class="small">Tre piatti, una storia.</span></div>
+      <div class="row g-3">
+        <div class="col-md-4"><article class="dish"><small>PRIMO</small><h3 class="h5 mt-3">Malloreddus</h3><p>Pomodoro, basilico e pecorino sardo.</p><strong>€ 14</strong></article></div>
+        <div class="col-md-4"><article class="dish"><small>SECONDO</small><h3 class="h5 mt-3">Orata al forno</h3><p>Patate, limone e verdure di stagione.</p><strong>€ 20</strong></article></div>
+        <div class="col-md-4"><article class="dish"><small>DOLCE</small><h3 class="h5 mt-3">Seadas</h3><p>Pasta croccante e miele locale.</p><strong>€ 7</strong></article></div>
+      </div>
+    </section>
+  </main>
+  <footer id="contatti" class="container border-top py-4">
+    <div class="row g-3"><div class="col-md-6"><strong>Vieni a trovarci</strong><p class="mb-0">Via del Gusto 12, Iglesias · indirizzo dimostrativo</p></div><div class="col-md-6 text-md-end"><p class="mb-1">Mar–Dom: 19:00–23:00</p><a href="mailto:farasara2017@gmail.com">farasara2017@gmail.com</a></div></div>
+  </footer>
+</body>
+</html>
